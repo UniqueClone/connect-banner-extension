@@ -1,0 +1,13 @@
+{
+  "name": "Remove Connect Header Banners",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Removes the banners from the Connect writing page to add screen real estate.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
